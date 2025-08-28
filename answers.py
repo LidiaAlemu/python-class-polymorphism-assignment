@@ -34,3 +34,7 @@ class Vehicle:
 class Car(Vehicle):
     def move(self):
         print("Car is driving 🚗")
+
+class Plane(Vehicle):
+    def move(self):
+        print("Plane is flying ✈️")
