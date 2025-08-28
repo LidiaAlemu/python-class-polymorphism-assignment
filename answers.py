@@ -18,7 +18,6 @@ class Smartwatch(Smartphone):
     def info(self):
         print(f"Brand: {self.brand}, Model: {self.model}, Price: ${self.price}, Strap: {self.strap_color}")
 
-
 phone1 = Smartphone("Apple", "iPhone 15", 999)
 phone1.info()
 phone1.call("123-456-7890")
@@ -29,7 +28,7 @@ watch1.call("987-654-3210")
 
 class Vehicle:
     def move(self):
-        pass 
+        pass
 
 class Car(Vehicle):
     def move(self):
