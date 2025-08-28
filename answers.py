@@ -17,3 +17,12 @@ class Smartwatch(Smartphone):
 
     def info(self):
         print(f"Brand: {self.brand}, Model: {self.model}, Price: ${self.price}, Strap: {self.strap_color}")
+
+
+phone1 = Smartphone("Apple", "iPhone 15", 999)
+phone1.info()
+phone1.call("123-456-7890")
+
+watch1 = Smartwatch("Apple", "Watch Series 9", 499, "Black")
+watch1.info()
+watch1.call("987-654-3210")
