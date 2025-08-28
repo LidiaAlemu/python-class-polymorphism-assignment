@@ -26,3 +26,7 @@ phone1.call("123-456-7890")
 watch1 = Smartwatch("Apple", "Watch Series 9", 499, "Black")
 watch1.info()
 watch1.call("987-654-3210")
+
+class Vehicle:
+    def move(self):
+        pass 
