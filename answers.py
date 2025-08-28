@@ -30,3 +30,7 @@ watch1.call("987-654-3210")
 class Vehicle:
     def move(self):
         pass 
+
+class Car(Vehicle):
+    def move(self):
+        print("Car is driving 🚗")
